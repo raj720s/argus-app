@@ -1,5 +1,6 @@
-import { BASEURL } from '@/config/variables';
+
 import axios from 'axios';
+import { BASEURL } from '../config/variables';
 
 const superAxios = axios.create({
   baseURL: BASEURL,
