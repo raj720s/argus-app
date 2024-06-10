@@ -1,0 +1,21 @@
+@import '../../../styles/index.scss';
+
+.top-header{
+    @apply flex justify-between items-center  py-2 h-12 mx-1 border-b;
+    @include max_md(){
+        display: none;
+    }
+    .info{
+        @apply flex items-center gap-2; 
+        .live_btn{
+            @include primary-button;
+            
+        }
+        .channel_btn{
+        @include secondary-button;
+        }
+        .subscribe_btn{
+        @include secondary-button;
+        }
+    }
+}

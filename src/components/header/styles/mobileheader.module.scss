@@ -1,0 +1,27 @@
+@import '../../../styles/index.scss';
+
+
+.live_btn{
+    @include primary-button;
+    @apply w-1/2;
+    
+}
+.channel_btn{
+@include secondary-button;
+@apply w-1/2;
+}
+.subscribe_btn{
+@include secondary-button;
+
+}
+
+.mobile_menu{
+    @apply flex flex-col gap-2 ;
+    .nav_link{
+        // &:first-child{
+        //     @apply border-t
+        // }
+        @apply px-2  py-1 text-lg border-b;
+
+    }
+}

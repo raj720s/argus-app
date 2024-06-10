@@ -1,0 +1,25 @@
+@import './variables';
+
+@mixin primary-header {
+    
+}
+
+@mixin secondary-header {
+    
+}
+
+
+@mixin primary-text {
+    
+}
+
+@mixin secondary-text {
+    
+}
+@mixin primary-button {
+    @apply  btn btn-sm btn-primary text-nowrap
+}
+
+@mixin secondary-button {
+    @apply   btn btn-sm btn-primary btn-outline border-primary text-primary text-nowrap;    
+}

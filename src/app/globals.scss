@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../styles/index.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// .custom_scrollbar {
+//     ::-webkit-scrollbar {
+//         // width: 5px;
+//         //   height: 1px;
+//         display: none;
+//     }
+
+//     ::-webkit-scrollbar-track {
+//         background: $primary-red !important;
+//         height: 1px;
+//     }
+
+//     ::-webkit-scrollbar-thumb {
+//         background: #26d38b;
+//     }
+
+//     ::-webkit-scrollbar-thumb:hover {
+//         background: #5e6bdf;
+//     }
+// }
