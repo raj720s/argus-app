@@ -18,18 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className={montserrat.variable}>
-      <body className="lg:container lg:mx-auto overflow-x-hidden">
-
-
+      <body className="container mx-auto overflow-x-hidden">
         <Header />
-        <main className="app-container   ">
-
+        <main className="app-container">
           {children}
-
         </main>
         <Footer />
-
-
       </body>
     </html>
   );

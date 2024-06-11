@@ -8,7 +8,7 @@ function HeaderBottom() {
         <div className={
             `header-section-scroll`
         }>
-            <div id="scrollquestion" className={`border-b border-t border-orange-300 flex justify-items-start items-center overflow-x-auto whitespace-nowrap gap-1 ${styles.custom_scrollbar}`}>
+            <div id="scrollquestion" className={`${styles.custom_scrollbar}  border-b border-t border-orange-300 flex justify-items-start items-center overflow-x-auto whitespace-nowrap gap-1 `}>
 
                 <div className="you-tube ml-1 flex items-center">
                     <Link href="https://www.youtube.com/channel/UCZL6FfQYRm7qkzXcGw9gBwA" target="_blank" rel="noopener noreferrer">

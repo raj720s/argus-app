@@ -7,13 +7,12 @@ const Footer = () => {
   return (
     <footer className="border-t">
 
-      <div className="footer w-full h-52 md:h-auto flex flex-wrap justify-between items-center p-3 md:p-6 border">
-        <Image src="/assets/logo/argus_logo.svg" alt="logo" width={240} height={52} className="w-1/4 md:w-1/2 lg:w-1/4" />
+      <div className="footer w-full  md:h-auto flex flex-wrap justify-between items-center max-md:justify-center p-3 md:p-6">
+        <Image src="/assets/logo/argus_logo.svg" alt="logo" width={240} height={52} className="  md:h-52 align-middle" />
 
-        <div className="social flex flex-col gap-2 md:gap-4 lg:gap-2">
+        <div className="social flex flex-col justify-center gap-2 md:gap-4 lg:gap-2 md:h-52 ">
           <p className="text-lg md:text-xl lg:text-lg">Follow Us</p>
-
-          <div className="social-links flex items-center justify-center gap-2 md:gap-4 lg:gap-2 text-lg">
+          <div className="social-links flex items-center justify-center gap-2 md:gap-4 lg:gap-2 text-lg" >
             <BsFacebook color="#1877F2" size={22} />
             <BsTwitter color="#1DA1F2" size={22} />
             <BsInstagram color="#E4405F" size={22} />
@@ -21,16 +20,18 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="download-social">
-          <div className="download flex flex-col gap-2">
+        <div className="downloads md:h-52 ">
+          <div className="download h-full flex flex-col gap-2 justify-center">
             <p className="text-lg md:text-xl lg:text-lg self-center">Download App</p>
             <div className="images flex gap-2 md:gap-4 lg:gap-2">
-              <Image src="https://argusnews.in/static/img/svg/play-store.svg" alt="playstore" width={100} height={32} />
-              <Image src="https://argusnews.in/static/img/svg/app-store.svg" alt="appstore" width={100} height={32} />
+              <Image src="https://argusnews.in/static/img/svg/play-store.svg" alt="playstore" width={100} height={22} />
+              <Image src="https://argusnews.in/static/img/svg/app-store.svg" alt="appstore" width={100} height={22} />
             </div>
           </div>
         </div>
       </div>
+
+
       <div className="footer grid-rows-2 grid-cols-2 text-neutral-content p-4 ">
         <div>
           <p className="text-lg">Services</p>
@@ -75,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer footer-center p-4 ">
+      <div className="footer footer-center p-4 border-t mx-2 ">
         <aside>
           <p>Copyright © 2024 - All right reserved by kdx Industries Ltd</p>
         </aside>

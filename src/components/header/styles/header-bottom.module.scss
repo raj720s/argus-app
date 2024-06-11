@@ -1,23 +1,33 @@
 @import '../../../styles/index.scss';
 
-// .custom_scrollbar {
-//     &::-webkit-scrollbar {
-//       width: 5px;
-//     //   height: 1px;
-//     display: none;
-// }
+.custom_scrollbar {
+    // Remove default scrollbar
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    
+    // For Firefox
+    scrollbar-width: none;
+  }
+  
+  // Optional: Style for header section scroll
+  .header-section-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
 
-// &::-webkit-scrollbar-track {
+// ::-webkit-scrollbar-track {
 //         display: none;
 //       background: $primary-red !important;
 //     }
     
-//     &::-webkit-scrollbar-thumb {
+//     ::-webkit-scrollbar-thumb {
 //       background: #26d38b;
 //       display: none;
 //     }
     
-//     &::-webkit-scrollbar-thumb:hover {
+//     ::-webkit-scrollbar-thumb:hover {
 //       background: #5e6bdf;
 //     }
 //   }

@@ -12,7 +12,6 @@
 }
 .subscribe_btn{
 @include secondary-button;
-
 }
 
 .mobile_menu{
@@ -22,6 +21,5 @@
         //     @apply border-t
         // }
         @apply px-2  py-1 text-lg border-b;
-
     }
 }
