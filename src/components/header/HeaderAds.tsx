@@ -18,7 +18,6 @@ function HeaderAds() {
             </div>
 
             <div className="gap-2 w-auto h-32">
-
                 <div className="carousel rounded-sm w-52 h-32">
                     <div className="carousel-item w-1/2">
                         <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" />
@@ -42,9 +41,6 @@ function HeaderAds() {
                         <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="w-full" />
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     )

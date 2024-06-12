@@ -1,0 +1,26 @@
+@import '../../../styles/index.scss';
+
+.breaking_news {
+    position: relative;
+    
+    
+  }
+  
+  .news_line {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .news_content {
+    display: inline-block;
+    animation: scroll 5s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
