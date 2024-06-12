@@ -31,10 +31,10 @@ const BreakingNews = () => {
 
     return (
         <div className={`${styles.breaking_news} my-1  flex items-center`}>
-            <div className=" bg-primary text-white p-1 font-bold md:w-1/2 text-nowrap">
+            <div className=" bg-primary text-white p-1 font-bold text-nowrap">
                 Breaking News
             </div>
-            <div className={`${styles.news_line} p-1 bg-secondary grow`}>
+            <div className={`${styles.news_line} p-1 bg-secondary w-full`}>
                 <div className={`${styles.news_content} animate-scroll`}>
                     <p className="px-2 inline-block whitespace-nowrap">
                         {newsData[currentNewsIndex].content}
