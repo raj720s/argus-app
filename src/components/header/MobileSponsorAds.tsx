@@ -31,29 +31,29 @@ function MobileSponsorsAds() {
         autoScroll();
     }, []);
     return (
-        <div className='header-ads w-full flex-col bg-red-700  px-2 items-center gap-1 md:hidden'>
-            <p className='text-3xl p-2 text-center text-white font-bold'>Top Sponsors</p>
+        <div className='header-ads w-full flex-col  px-2 items-center gap-1 md:hidden'>
+            <p className='text-3xl p-2 text-center text-gray-500 font-bold'>Top Sponsors</p>
             <div className="gap-2 w-auto">
-                <div className="carousel rounded-sm w-full sm:h-32 md:h-44" ref={carouselRef}>
-                    <div className="carousel-item w-1/5">
+                <div className="carousel gap-2 rounded-sm w-full h-32" ref={carouselRef}>
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="w-full" />
                     </div>
-                    <div className="carousel-item w-1/5">
+                    <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="w-full" />
                     </div>
                 </div>
