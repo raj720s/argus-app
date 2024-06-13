@@ -31,10 +31,10 @@ function MobileSponsorsAds() {
         autoScroll();
     }, []);
     return (
-        <div className='header-ads w-full flex-col  px-2 items-center gap-1 md:hidden'>
+        <div className='header-ads w-full flex-col px-2 items-center gap-1 md:hidden'>
             <p className='text-3xl p-2 text-center text-gray-500 font-bold'>Top Sponsors</p>
-            <div className="gap-2 w-auto">
-                <div className="carousel gap-2 rounded-sm w-full h-32" ref={carouselRef}>
+            <div className="w-auto">
+                <div className="carousel gap-1 rounded-sm w-full h-32" ref={carouselRef}>
                     <div className="carousel-item w-1/4">
                         <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" />
                     </div>
