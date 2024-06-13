@@ -2,9 +2,6 @@
 
 .breaking_news {
     position: relative;
-    
-    
-  }
   
   .news_line {
     overflow: hidden;
@@ -13,14 +10,15 @@
   
   .news_content {
     display: inline-block;
-    animation: scroll 5s linear infinite;
+    animation: scroll 2s linear forwards;
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        // transform: translateX(-100%);
+      }
+    }
   }
   
-  @keyframes scroll {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+}

@@ -1,0 +1,26 @@
+@import '../../../styles/index.scss';
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+  .animate-scroll {
+    animation: scroll 15s linear infinite;
+  }
+
+  .carousel_track {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .carousel_item {
+    flex: 0 0 auto;
+  }

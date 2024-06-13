@@ -109,8 +109,7 @@ function MobileHeader() {
 
         <button className={styles['subscribe_btn']}>Subscribe</button>
 
-        <BiSearch className='md:text-3xl text-8xl h-10 mx-2 text-black min-[12px]:' />
-
+        <BiSearch className='md:text-3xl text-6xl h-10 mx-2 text-black min-[12px]:' />
       </div>
     </>
   )
