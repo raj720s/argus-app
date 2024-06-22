@@ -1,0 +1,78 @@
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* Ensure positioning context for vertical bars */
+}
+
+.left-sidebar, .right-sidebar {
+  width: 25%; /* Adjust width as needed */
+  padding: 10px;
+  background-color: #ffffff; /* White background */
+}
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Ensure positioning context for vertical bar */
+}
+
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right */
+}
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.sidebar-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-section ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.sidebar-section ul li img {
+  width: 50px; /* Adjust image size as needed */
+  height: 50px; /* Adjust image size as needed */
+  margin-left: 10px; /* Add spacing between image and text */
+  border-radius: 5px; /* Keep square shape for images */
+}
+
+.main-content {
+  flex-grow: 1; /* Main content takes remaining space */
+  padding: 10px;
+  background-color: #ffffff; /* Ensure main content background is also white */
+}
+
+.sidebar-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Space between image and content */
+}
+
+.sidebar-hr {
+  margin: 10px 0; /* Margin above and below the horizontal rule */
+}
+
+/* Vertical bar */
+.left-sidebar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent 50%, #ccc 50%);
+  margin-bottom: 10px;
+}
