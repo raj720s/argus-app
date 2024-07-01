@@ -1,22 +1,41 @@
-import React from 'react'
-import MobileAds from '../components/MobileAds'
-import BreakingNews from './home/components/BreakingNews'
-import MobileSponsorsAds from '@/components/header/MobileSponsorAds'
+// Page.js
 
-function page() {
+import React from 'react';
+import BreakingNews from './home/components/BreakingNews';
+import MainContent from './home/components/MainContent';
+import LeftSidebar from './home/components/LeftSidebar';
+import LeftSidebarNew from './home/components/LeftSidebarNew';
+import RightSidebar from './home/components/RightSidebar';
+import './page.scss'; // Import SCSS file for styling
+
+function Page() {
   return (
-
-    <div className="home-page">
-      <MobileAds />
+    <div>
       <BreakingNews />
-      <MobileSponsorsAds />
+      <div className="page-container">
+        {/* Main content */}
+        <MainContent />
 
-      <h1 className="text-3xl ">
-        Hello world!
-      </h1>
+        {/* Vertical bar */}
+        <div className="vertical-bar"></div>
+
+        {/* Left sidebar 1 */}
+        <LeftSidebar />
+
+        {/* Vertical bar */}
+        <div className="vertical-bar"></div>
+
+        {/* Left sidebar 2 (if needed) */}
+        <LeftSidebarNew />
+
+        {/* Vertical bar */}
+        <div className="vertical-bar"></div>
+
+        {/* Right sidebar */}
+        <RightSidebar />
+      </div>
     </div>
-
-  )
+  );
 }
 
-export default page
+export default Page;

@@ -1,0 +1,54 @@
+@import '../../../styles/index.scss';
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Space between image and content */
+    transition: transform 0.3s ease; /* Smooth transition effect for transform */
+    overflow: hidden; /* Ensure image does not overflow its container */
+  }
+  
+  .left-sidebar:hover .sidebar-image {
+    transform: scale(1.2); /* Scale up the image on hover */
+    z-index: 2; /* Ensure hovered image is above other elements */
+  }
+
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-section ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .sidebar-section ul li img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px; /* Adjust image size as needed */
+    margin-left: 10px; /* Add spacing between image and text */
+    border-radius: 5px; /* Keep square shape for images */
+  }
+  
+  .sidebar-hr {
+    width: 100%; /* Ensure horizontal rule spans full width */
+    margin: 10px 0; /* Margin above and below the horizontal rule */
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Style the top border */
+  }
+  

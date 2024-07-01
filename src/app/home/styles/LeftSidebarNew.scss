@@ -1,0 +1,50 @@
+.left-sidebar {
+    width: 25%;
+    padding: 10px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent overflowing content */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.sidebar-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.sidebar-hr {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.left-sidebar p {
+    margin-bottom: 10px;
+}
+
+.left-sidebar:hover .sidebar-image {
+    transform: scale(1.2); /* Scale up the image on hover */
+}
+
+
+.left-sidebar:hover .sidebar-content {
+    padding: 15px; /* Increase padding on hover */
+}
+
+.left-sidebar {
+    width: 25%;
+    padding: 10px; /* Adjust padding as necessary */
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+

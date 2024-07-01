@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.leftBar,
+.middleBar,
+.rightBar {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leftBar {
+  flex: 1;
+  max-width: 20%;
+}
+
+.middleBar {
+  flex: 2;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightBar {
+  flex: 1;
+  max-width: 20%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.breaking_news {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
