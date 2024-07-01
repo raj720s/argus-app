@@ -1,0 +1,29 @@
+// RightSidebar.scss
+
+.right-sidebar {
+    width: 25%; /* Adjust width as needed */
+    padding: 10px;
+    background-color: #ffffff; /* White background */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-section p {
+    margin-bottom: 10px;
+  }
+  
